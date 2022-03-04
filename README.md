@@ -74,9 +74,6 @@ Here's why:
 * A project that solves air related problems
 * For a better living :smile:
 
-Liked what I do? Thank You Very Much!
-
-<a href="https://www.buymeacoffee.com/noobkoda" target="_blank" rel="noopener noreferrer"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: 41px !important;width: 174px !important;box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;-webkit-box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;" ></a>
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -180,6 +177,14 @@ Distributed under the GNU General Public License. See `LICENSE.txt` for more inf
 
 
 Project Link: [https://github.com/anupammaurya6767/kuki](https://github.com/anupammaurya6767/kuki)
+
+
+
+
+
+Liked what I do? Thank You Very Much!
+
+<a href="https://www.buymeacoffee.com/noobkoda" target="_blank" rel="noopener noreferrer"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: 41px !important;width: 174px !important;box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;-webkit-box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;" ></a>
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
