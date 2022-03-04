@@ -229,4 +229,4 @@ Use this space to list resources you find helpful and would like to give credit 
 [license-url]: https://github.com/anupammaurya6767/Kuki/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/anupam-maurya-b9a04a225/
-[product-screenshot]: images/screenshot.png
+[product-screenshot]: https://github.com/anupammaurya6767/Kuki/blob/main/Images/screenshot.png
