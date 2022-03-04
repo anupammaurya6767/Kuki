@@ -16,7 +16,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/othneildrew/Best-README-Template">
+  <a href="https://github.com/anupammaurya6767/Kuki">
     <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
@@ -26,9 +26,9 @@
      Kuki
     <br />
     ·
-    <a href="https://github.com/anupammaurya6767/kuki/issues">Report Bug</a>
+    <a href="https://github.com/anupammaurya6767/Kuki/issues">Report Bug</a>
     ·
-    <a href="https://github.com/anupammaurya6767/kuki/issues">Request Feature</a>
+    <a href="https://github.com/anupammaurya6767/Kuki/issues">Request Feature</a>
   </p>
 </div>
 
@@ -217,16 +217,16 @@ Use this space to list resources you find helpful and would like to give credit 
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/anupammaurya6767/kuki.svg?style=for-the-badge
-[contributors-url]: https://github.com/anupammaurya6767/kuki/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/anupammaurya6767/kuki.svg?style=for-the-badge
-[forks-url]: https://github.com/anupammaurya6767/kuki/network/members
-[stars-shield]: https://img.shields.io/github/stars/anupammaurya6767/kuki.svg?style=for-the-badge
-[stars-url]: https://github.com/anupammaurya6767/kuki/stargazers
-[issues-shield]: https://img.shields.io/github/issues/anupammaurya6767/kuki.svg?style=for-the-badge
-[issues-url]: https://github.com/anupammaurya6767/kuki/issues
-[license-shield]: https://img.shields.io/github/license/anupammaurya6767/kuki.svg?style=for-the-badge
-[license-url]: https://github.com/anupammaurya6767/kuki/blob/master/LICENSE.txt
+[contributors-shield]: https://img.shields.io/github/contributors/anupammaurya6767/Kuki.svg?style=for-the-badge
+[contributors-url]: https://github.com/anupammaurya6767/Kuki/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/anupammaurya6767/Kuki.svg?style=for-the-badge
+[forks-url]: https://github.com/anupammaurya6767/Kuki/network/members
+[stars-shield]: https://img.shields.io/github/stars/anupammaurya6767/Kuki.svg?style=for-the-badge
+[stars-url]: https://github.com/anupammaurya6767/Kuki/stargazers
+[issues-shield]: https://img.shields.io/github/issues/anupammaurya6767/Kuki.svg?style=for-the-badge
+[issues-url]: https://github.com/anupammaurya6767/Kuki/issues
+[license-shield]: https://img.shields.io/github/license/anupammaurya6767/Kuki.svg?style=for-the-badge
+[license-url]: https://github.com/anupammaurya6767/Kuki/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/othneildrew
 [product-screenshot]: images/screenshot.png
