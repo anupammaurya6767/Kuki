@@ -146,8 +146,7 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 <!-- ROADMAP -->
 ## Roadmap
 
-- [x] Add Better user-inter-face
-- [x] Add Live Tracker automatic updater
+- [x] Add Day-Night Feature
 - [ ] Add New methods of prevention
 - [ ] Make a Android App
 - [ ] Multi-language Support
