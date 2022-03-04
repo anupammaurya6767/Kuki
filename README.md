@@ -197,7 +197,7 @@ Project Link: [https://github.com/anupammaurya6767/kuki](https://github.com/anup
 [issues-shield]: https://img.shields.io/github/issues/anupammaurya6767/Kuki.svg?style=for-the-badge
 [issues-url]: https://github.com/anupammaurya6767/Kuki/issues
 [license-shield]: https://img.shields.io/github/license/anupammaurya6767/Kuki.svg?style=for-the-badge
-[license-url]: https://github.com/anupammaurya6767/Kuki/blob/master/LICENSE.txt
+[license-url]: https://github.com/anupammaurya6767/Kuki/blob/main/LICENSE
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/anupam-maurya-b9a04a225/
 [product-screenshot]: https://github.com/anupammaurya6767/Kuki/blob/main/Images/screenshot.png
