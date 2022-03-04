@@ -20,10 +20,10 @@
     <img src="https://github.com/anupammaurya6767/Kuki/blob/main/Images/favicon.png" alt="Logo" width="80" height="80">
   </a>
 
-  <h3 align="center">Best-README-Template</h3>
+  <h3 align="center">Kuki</h3>
 
   <p align="center">
-     Kuki
+     Air Monitor Web-App
     <br />
     ·
     <a href="https://github.com/anupammaurya6767/Kuki/issues">Report Bug</a>
