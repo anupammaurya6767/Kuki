@@ -67,16 +67,16 @@
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
-There are many great README templates available on GitHub; however, I didn't find one that really suited my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need -- I think this is it.
+A web-app that monitors the air and gives you various information regarding your environment. It gives you AQI and a brief Weather Report alongwith the forecast result of AQI and Weather. Gives you a brief report and suggestion to increase the quality of the air.
 
 Here's why:
 * Your time should be focused on creating something amazing. A project that solves a problem and helps others
-* You shouldn't be doing the same tasks over and over like creating a README from scratch
-* You should implement DRY principles to the rest of your life :smile:
+* A project that solves air related problems
+* For a better living :smile:
 
-Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue. Thanks to all the people have contributed to expanding this template!
+Liked what I do? Thank You Very Much!
 
-Use the `BLANK_README.md` to get started.
+<a href="https://www.buymeacoffee.com/noobkoda" target="_blank" rel="noopener noreferrer"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: 41px !important;width: 174px !important;box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;-webkit-box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;" ></a>
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
