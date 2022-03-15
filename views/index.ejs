@@ -1,0 +1,64 @@
+<%- include("header") -%>
+  <div class="credit">
+    <h1>Fetching Data...</h1>
+  </div>
+<div id="container">
+<%-include("menu")-%> 
+  
+ <%-include("loader")-%>
+     
+    <div id="main">
+        <div id="search">
+            <ge-autocomplete
+        api_key="ge-03dc49ea42f7cf05" id="search-box" style="width: 80%;margin: 0px auto; border: none;"
+      ></ge-autocomplete>
+      <pre id="result"></pre>
+      <!-- <form method="post" action="/location">
+          <input type="text" id="lat">
+          <input type="text" id="long">
+      </form> -->
+      <form id="btn-form" action="/location">
+        <input type="submit" value="My Location" id="btn2" action="/location">
+        <input type="submit" value="My Location" id="btn3" action="/location">
+      </form>
+      <form>
+        <input type="submit" value="Get Results" id="btn">
+      </form>
+     
+          </div>
+    </div>
+    <div id="card">
+        <div class="header">
+          <h1>From house of Werascals</h1>
+          <h1></h1>
+      
+          <p>Our App helps to monitor air quality and provides you all necessary information that is importants for your health.</p>
+        </div>
+        <div class="row1-container">
+          <div class="box box-down cyan">
+            <h2>Tracker</h2>
+            <p>Tracks various types of Pollutants at your location.</p>
+            <img src="https://assets.codepen.io/2301174/icon-supervisor.svg" alt="">
+          </div>
+      
+          <div class="box red">
+            <h2>Air Monitor</h2>
+            <p>Monitors the quality of air and gives you appropriate results.</p>
+            <img src="https://assets.codepen.io/2301174/icon-team-builder.svg" alt="">
+          </div>
+      
+          <div class="box box-down blue">
+            <h2>Calculator</h2>
+            <p>Our Health Meter shows you the quality of air in percentage.</p>
+            <img src="https://assets.codepen.io/2301174/icon-calculator.svg" alt="">
+          </div>
+        </div>
+        <div class="row2-container">
+          <div class="box orange">
+            <h2>Suggestions</h2>
+            <p>Gives you necessary health suggestion.</p>
+            <img src="https://assets.codepen.io/2301174/icon-karma.svg" alt="">
+          </div>
+        </div>
+      </div>
+<%-include("footer")-%>

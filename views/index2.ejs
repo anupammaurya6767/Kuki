@@ -1,0 +1,263 @@
+<%- include("header") -%>
+  <div class="credit">
+    <h1>Fetching Data...</h1>
+  </div>
+<div id="container">
+<%-include("menu")-%> 
+  
+ <%-include("loader")-%>
+     
+    <div id="main">
+        <div id="search">
+            <ge-autocomplete
+        api_key="ge-ddeed387503e8dfb" id="search-box" style="width: 80%;margin: 0px auto; border: none;"
+      ></ge-autocomplete>
+      <pre id="result"></pre>
+      <div style="display:flex;flex-wrap:wrap;justify-content:center;">
+        <form id="btn-form">
+          <input type="submit" value="My Location" id="btn2">
+          <input type="submit" value="My Location" id="btn3">
+        </form>
+        <form id="btn-form">
+          <input type="submit" value="Get Results" id="btn">
+        </form>
+      </div>
+     
+          </div>
+    </div>
+    <div id="collapse">
+        <div class="w3-card-3" style="width:80%; margin: 10px auto; border: 2px solid ;" >
+      
+          <header class="w3-container w3-blue">
+            <h1>Your <span id="local">Current</span> Location Results:</h1>
+          </header>
+          
+          <div class="w3-container" id="cards">
+             <div id="api">
+              <div class="shadowbox">
+                     <h3>AQI Value (US - EPA standard): <%=aqi_curr%></h3>
+                  </div>
+                   <div class="shadowbox">
+                     <h3>PM 2.5 Value: <%=pm25_curr%> µg/m³</h3>
+                   </div>
+                   <div class="shadowbox">
+                <h3>PM 10 Value: <%=pm10_curr%> µg/m³</h3>
+                  </div>
+                   <div class="shadowbox">
+                   <h3>O3 Value: <%=o3_curr%> µg/m³</h3>
+                  </div>
+                 <div class="shadowbox">
+                    <h3>NO2 Value: <%=no2_curr%> µg/m³</h3>
+                 </div>
+                 <div class="shadowbox">
+                     <h3>SO2 Value: <%=so2_curr%> µg/m³</h3>
+                    </div>
+                  <div class="shadowbox">
+                     <h3>CO Value: <%=co_curr%> µg/m³</h3>
+                  </div>
+             
+          </div>
+          
+          
+          
+          </div>
+          <footer class="w3-container w3-blue">
+            <h5></h5>
+          </footer>
+      <div class="w3-card-3" style="margin: 10px auto; border: 2px solid ;" >
+      
+        <header class="w3-container w3-blue">
+          <h1>Weather Report:</h1>
+        </header>
+        
+        <div class="w3-container" id="cards">
+          <div style="display:flex;margin:0px 5px"><span id="icon-weather">
+              <img src="https://www.weatherbit.io/static/img/icons/<%=ic_curr%>.png">
+          </span>
+            
+          </div>
+         
+          <div id="temp">
+          
+             <div class="shadowbox">
+                <h3>    Weather Description: <%=descript_curr%> </h3>
+            </div>
+            <div class="shadowbox">
+                   <h3>Relative Humidity: <%=humid_curr%> </h3>
+                 </div>
+                 <div class="shadowbox">
+                   <h3>Minimum Temperature (in Celsius): <%=tempmin_curr%></h3>
+                 </div>
+                 <div class="shadowbox">
+                   <h3>Atmospheric Pressure: <%=press_curr%> mb</h3>
+                 </div>
+                 <div class="shadowbox">
+                   <h3>    Wind Speed: <%=speed_curr%> m/s</h3>
+                 </div>
+                 <div class="shadowbox">
+                   <h3>    Maximum Temperature (in Celsius): <%=solar_curr%></h3>
+                 </div>
+               <div class="shadowbox">
+                   <h3>   Visibility: <%=visi_curr%> Km</h3>
+                 </div>
+                <div class="shadowbox">
+                       <h3>   Source Station Id: <%=source_curr%> </h3>
+                 </div>
+          </div>
+        </div>
+        
+        <footer class="w3-container w3-blue">
+          <h5></h5>
+        </footer>
+        
+        </div>
+      <div class="w3-card-3" style="margin: 10px auto; border: 2px solid ;" >
+      
+        <header class="w3-container w3-blue">
+          <h1>AQI  Forecast  (Tommorrow):</h1>
+        </header>
+        
+        <div class="w3-container" id="cards">
+          <div id="forecast">
+              <div class="shadowbox">
+                     <h3>AQI Value (US - EPA standard): <%=aqi_for%></h3>
+                  </div>
+                   <div class="shadowbox">
+                     <h3>PM 2.5 Value: <%=pm25_for%> µg/m³</h3>
+                   </div>
+                   <div class="shadowbox">
+                <h3>PM 10 Value: <%=pm10_for%> µg/m³</h3>
+                  </div>
+                   <div class="shadowbox">
+                   <h3>O3 Value: <%=o3_for%> µg/m³</h3>
+                  </div>
+                 <div class="shadowbox">
+                    <h3>NO2 Value: <%=no2_for%> µg/m³</h3>
+                 </div>
+                 <div class="shadowbox">
+                     <h3>SO2 Value: <%=so2_for%> µg/m³</h3>
+                    </div>
+                  <div class="shadowbox">
+                     <h3>CO Value: <%=co_for%> µg/m³</h3>
+                  </div>
+             
+          </div>
+        </div>
+        
+        <footer class="w3-container w3-blue">
+          <h5></h5>
+        </footer>
+        
+        </div>
+        <div class="w3-card-3" style="margin: 10px auto; border: 2px solid ;" >
+      
+          <header class="w3-container w3-blue">
+            <h1>Weather  Forecast  (Tommorrow):</h1>
+          </header>
+          <div class="w3-container" id="cards">
+            <div style="display:flex;margin:0px 5px"><span id="icon-weather">
+              <img src="https://www.weatherbit.io/static/img/icons/<%=ic_for%>.png">
+          </span>
+            
+          </div>
+            <div id="forecast-weather">
+              <div class="shadowbox">
+                <h3>    Weather Description: <%=descript_for%> </h3>
+            </div>
+            <div class="shadowbox">
+                   <h3>Relative Humidity: <%=humid_for%> </h3>
+                 </div>
+                 <div class="shadowbox">
+                   <h3>Minimum Temperature (in Celsius): <%=tempmin_for%></h3>
+                 </div>
+                 <div class="shadowbox">
+                   <h3>Atmospheric Pressure: <%=press_for%> mb</h3>
+                 </div>
+                 <div class="shadowbox">
+                   <h3>    Wind Speed: <%=speed_for%> m/s</h3>
+                 </div>
+                 <div class="shadowbox">
+                   <h3>    Maximum Temperature (in Celsius): <%=solar_for%></h3>
+                 </div>
+               <div class="shadowbox">
+                   <h3>   Visibility: <%=visi_for%> Km</h3>
+                 </div>
+                <div class="shadowbox">
+                       <h3>   Source Station Id: <%=source_for%> </h3>
+                 </div>
+            </div>
+          </div>
+          
+          <footer class="w3-container w3-blue">
+            <h5></h5>
+          </footer>
+          
+          </div>
+          <div class="w3-card-3" style="margin: 10px auto; border: 2px solid ;" >
+      
+            <header class="w3-container w3-blue">
+              <h1>Health Meter:</h1>
+            </header>
+            
+            <div class="w3-container" id="cards">
+              <div id="health" style=" text-transform: capitalize;">
+                <div id="meter">
+                  <div class="ui-widgets" style="border: 1.2rem solid '<%=colo%>'; border-left-color:'<%=colo%>'; border-top-color:'<%colo%>' ;border-right-color:'<%=colo%>';border-bottom-color: white ;">
+                <div role="progressbar" aria-valuenow=<%=meter%> aria-valuemin="0" aria-valuemax="100" style="--value:<%=meter%>;--fg: <%=colo%>;"></div>
+                </div>
+              </div>
+                  <div id="health-range">
+                    <h2 style="color:'<%=colo%>;'"><%=categi%></h2>
+                  </div>
+      
+                
+              </div>
+              <footer class="w3-container w3-blue">
+                <h5></h5>
+              </footer>
+            </div>
+            
+            
+            
+            
+            <div class="w3-card-3" style="margin: 10px auto; border: 2px solid ;" >
+      
+              <header class="w3-container w3-blue">
+                <h1>Health Suggestions:</h1>
+              </header>
+              
+              <div class="w3-container" id="cards">
+                <div id="health-suggestions" style="padding: 0px 15px; text-transform: capitalize;">
+                  <div>
+                 
+        
+                  </div>
+                </div>
+              </div>
+              
+              <footer class="w3-container w3-blue">
+                <h5></h5>
+              </footer>
+              
+              </div>
+      
+              <div class="w3-card-3" style="margin: 10px auto; border: 2px solid ;" >
+      
+                <header class="w3-container w3-blue">
+                  <h1>Pollutants:</h1>
+                </header>
+                
+                <div class="w3-container" id="cards">
+                  <div id="poll" style="padding: 0px 15px; text-transform: capitalize;">
+                    
+                </div>
+                
+                <footer class="w3-container w3-blue">
+                  <h5></h5>
+                </footer>
+                
+                </div>
+        </div>
+       
+    </div>
+<%-include("footer")-%>
