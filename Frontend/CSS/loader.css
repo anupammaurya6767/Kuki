@@ -1,0 +1,46 @@
+
+svg {
+    position: absolute;
+    width: 240px;
+    height: 120px;
+    top: 0; right: 0;
+    bottom: 0; left: 0; 
+    margin: auto;
+  }
+  
+  svg #plug,
+  svg #socket {
+    fill:#FDB515;
+  }
+  
+  svg #loop-normal {
+    fill: none;
+    stroke: #FDB515;
+    stroke-width: 12;
+  }
+  
+  svg #loop-offset {
+    display: none;
+  }
+  
+  .credit {
+    position: absolute;
+    bottom: 40px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .credit h1 {
+    color: #FDB515;
+    font: 1500 75% "Open Sans", sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+  }
+
+  #preloader{
+      display: none;
+  }
+
+  .credit{
+    display: none;
+  }
